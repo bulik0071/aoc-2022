@@ -51,4 +51,4 @@ for singleResult in result:
         loses_1=loses_1+1
 totalPoints_1=choosePoints_1+gamePoints_1
 print(f'Part1: Choose points: {choosePoints}, game points: {gamePoints}. Total points: {totalPoints}. Wins: {wins}, draws: {draws}, loses: {loses}')
-print(f'Part1: Choose points: {choosePoints_1}, game points: {gamePoints_1}. Total points: {totalPoints_1}. Wins: {wins_1}, draws: {draws_1}, loses: {loses_1}')
+print(f'Part2: Choose points: {choosePoints_1}, game points: {gamePoints_1}. Total points: {totalPoints_1}. Wins: {wins_1}, draws: {draws_1}, loses: {loses_1}')
