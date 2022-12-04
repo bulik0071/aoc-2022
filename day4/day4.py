@@ -19,7 +19,6 @@ def checkifcontains(inputArray):
         return True
     else:
         return False
-        """                                                                                                                                                                                                                                     5-7,7-9"""
 def checkifoverlap(inputArray):
     if int(inputArray[0])>=int(inputArray[2]) and int(inputArray[0])<=int(inputArray[3]) or int(inputArray[1])>=int(inputArray[2]) and int(inputArray[1])<=int(inputArray[3]) or int(inputArray[2])>=int(inputArray[0]) and int(inputArray[2])<=int(inputArray[1]) or int(inputArray[3])>=int(inputArray[0]) and int(inputArray[3])<=int(inputArray[0]):
         return True
